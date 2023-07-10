@@ -299,3 +299,98 @@ margin-bottom: 2rem;
     right: 40%;
 }
 
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 95%;
+        grid-template-columns: 7rem auto 23rem;
+    }
+
+    .navbar{
+        width: 60%;
+    }
+
+    .container-main{
+        width: 100%;
+    }
+
+    .linguagens{
+        width: 100%;
+        position: relative;
+        left: 40%;
+    }
+
+    .projetos-container{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+       grid-template-columns: 1fr;
+    }
+
+    .navbar{
+        width: 95%;
+    }
+
+    .logo{
+        width: 1%;
+        position: relative;
+        right: 10%;
+    }
+
+    .container-h1 h1{
+        width: 100%;
+        font-size: 80px;
+    }
+
+    .socialmidia{
+        width: 100%;
+        position: relative;
+        right: 30%;
+    }
+
+    .container-main{
+        width: 20%;
+        flex-direction: column;
+    }
+
+    .title h3{
+        position: relative;
+        left: 40%;
+        font-size: 15px;
+    }
+
+    .main-text p{
+        font-size: 16px;
+    }
+
+    .main-text img{
+        margin-top: 3rem;
+        width: 300px;
+        height: 300px;
+    }
+
+    .projetos-container{
+        width: 1%;
+    }
+
+    .text-projetos h2{
+        font-size: 46px;
+        position: relative;
+    
+    }
+
+    .img-projetos h3{
+        position: relative;
+        left: 1%;
+    }
+
+    .img-projetos img{
+        width: 460px;
+        height: 260px;
+        position: relative;
+        left: 4%;
+    }
+}
