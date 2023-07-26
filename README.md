@@ -3,7 +3,7 @@
 
 https://henriquedouradoo.github.io/Portifolio-HD/
 
-Portifolio pessoal utilizando HTML CSS JS 
+Portifolio pessoal utilizando HTML CSS JS  
 Aqui é destinado para destacar alguns projetos e sobre mim.
 interesse em data science e data analytics.
 
