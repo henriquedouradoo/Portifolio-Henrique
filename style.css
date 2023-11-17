@@ -451,6 +451,10 @@ article {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    
     .container{
         width: 100%;
        grid-template-columns: 1fr;
@@ -464,7 +468,7 @@ article {
     }
 
     .navbar li{
-        font-size: 16px;
+        font-size: 13px;
         margin-top: -4%;
     }
 
@@ -476,12 +480,9 @@ article {
        font-size: 21px;
     }
 
-    .logo h4{
-      margin-top: 3%;
-    }
     .container-h1 h1{
-        width: 100%;
-        font-size: 70px;
+        width: 90%;
+        font-size: 64px;
     }
 
     .socialmidia{
